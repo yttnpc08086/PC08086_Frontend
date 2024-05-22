@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="SCSS/style.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-cowg5qEgs2I8hNhB/HVG+yxThfF+awvHcnwLTF8v5plOG+N0viBNcLY1HQhNt2Gm6qqVW97DmTc+x7i8pK4F3A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex nav-top-item">
+            <div class="col-4 bg-black text-primary"> <i class="bi bi-clock"></i>OPENING HOURS : <label
+                    class="text-light">08:00 AM - 09:00 PM</label></div>
+            <div class="col-4 bg-black text-white text-center"><i class="bi bi-facebook p-2"></i> <i
+                    class="bi bi-twitter p-2"></i><i class="bi bi-instagram p-2"></i><i class="bi bi-youtube p-2"></i>
+            </div>
+            <div class="col-4 bg-black text-primary justify-content-between "><i
+                    class="bi bi-geo-alt-fill text-primary"></i>LOCATION: <label class="text-light">55 MAIN STRESS, NEW
+                    YORK</label></div>
+        </div>
+    </div>
+    <!-- nav start  -->
+    <nav class="navbar bg-navbar navbar-expand-lg  text-light border-bottom border-body px-4" data-bs-theme="dark">
+        <a class="navbar-brand" href="#">
+            <img src="https://kaffen-reactjs.netlify.app/images/logo.png" alt="logo" width="118" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="index.html" role="button" aria-expanded="false">
+                        HOME
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">COFFEE HOUSE</a></li>
+                        <li><a class="dropdown-item" href="#">RESTAURANT</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" role="button" aria-expanded="false">
+                        ABOUT
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                        MENU
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                        PAGES
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                        BLOG
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button" aria-expanded="false">
+                        CONTACTS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="booking">
+                <button class="btn bg-primary" type="submit">BOOK A TABLE</button>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar  -->
+    <div class="">
+        <div id="carouselSlider" class="carousel slide bg-about_us" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://kaffen-reactjs.netlify.app/images/started_img_n6.jpg" class=" w-100"
+                        alt="img/img4.jpg" style="height: 640px;">
+                    <div class="carousel-caption d-none d-md-block position-absolute bottom-50 end-50">
+                        <h2 class="display-1 title-slider">About Us</h2>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- About us  -->
+    <div class="container-fluid bg-dark p-5">
+        <div class="container">
+            <div class="row ">
+                <div class=" col-sm-12 col-md-12 col-lg-6 p-5">
+                    <div class="">
+                        <div class="text-primary text-uppercase my-4">ABOUT KAFFEN</div>
+                        <h3 class="font-family-'Oswald' my-4 text-white" style="font-size: 42px;">New London Coffee
+                            Founded<br>For Extraordinary Test</h3>
+                    </div>
+
+                    <div class=" text-secondary my-4" style="font-family: 'Roboto', sans-serif;">
+                        <p>Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque laudantium,
+                            totam rem aperiam eaque ipsa quae abillo inventore veritatis</p>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-12 col-lg-2">
+                            <img src="img/choose_icon1.png" alt="" class="img-fluid mt-4">
+                        </div>
+                        <div class="col-12 col-lg-10 text-secondary ">
+                            <h3 class="font-family-'Oswald' my-4 text-white" style="font-size: 24px;">Natural Coffee
+                                Beans</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque</p>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-12 col-lg-2">
+                            <img src="img/choose_icon2.png" alt="" class="img-fluid mt-4">
+                        </div>
+                        <div class="col-12 col-lg-10 text-secondary ">
+                            <h3 class="font-family-'Oswald' my-4 text-white" style="font-size: 24px;">100% ISO
+                                Certification</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque</p>
+                        </div>
+                    </div>
+                    <button class="btn bg-primary text-light opacity-75">OUR MENU <i
+                            class="bi bi-chevron-right"></i></button>
+                </div>
+                <div class=" col-sm-12 col-md-12 col-lg-6 p-5">
+                    <img src="img/about_img2.jpg" alt="" height="600px" class="d-block w-100">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end about us -->
+    <div class="bg-black p-5 ">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-10 d-flex container">
+                <div class="row col-12">
+                    <div class="col-3 text-secondary">
+                        <div class="card bg-dark" style="width: 80px; height: 70px;">
+                            <i class="bi bi-gem text-primary text-center justify-content-center"
+                                style="font-size: 40px;"></i>
+                        </div>
+                        <p class="num text-primary">256+</p>
+                        <h4 class="font-family-'Oswald'  text-white" style="font-size: 24px;">Premium Clients</h4>
+                        <p class="col-lg-12">Sed ut perspiciatis unde omnis </p>
+                    </div>
+                    <div class="col-3 text-secondary">
+                        <div class="card bg-dark" style="width: 80px; height: 70px;">
+                            <i class="bi bi-person text-primary text-center justify-content-center"
+                                style="font-size: 40px;"></i>
+                        </div>
+                        <p class="num text-primary">36+</p>
+                        <h4 class="font-family-'Oswald' text-white" style="font-size: 24px;">Professional Chefs</h4>
+                        <p class="col-lg-12">Sed ut perspiciatis unde omnis </p>
+                    </div>
+                    <div class="col-3 text-secondary">
+                        <div class="card bg-dark" style="width: 80px; height: 70px;">
+                            <i class="bi bi-trophy text-primary text-center justify-content-center"
+                                style="font-size: 40px;"></i>
+                        </div>
+                        <p class="num text-primary">753+</p>
+                        <h4 class="font-family-'Oswald' text-white" style="font-size: 24px;">PWinning Awards</h4>
+                        <p class="col-lg-12">Sed ut perspiciatis unde omnis </p>
+                    </div>
+                    <div class="col-3 text-secondary">
+                        <div class="card bg-dark" style="width: 80px; height: 70px;">
+                            <i class="bi bi-emoji-sunglasses text-primary text-center justify-content-center"
+                                style="font-size: 40px;"></i>
+                        </div>
+                        <p class="num text-primary">100+</p>
+                        <h4 class="font-family-'Oswald' text-white" style="font-size: 24px;">5 Star Reviews</h4>
+                        <p class="col-lg-12">Sed ut perspiciatis unde omnis </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // video star  -->
+    <div class="bg-dark p-5">
+        <div class="row justify-content-center mb-5">
+            <div class="col-10">
+                <div class="feature-img">
+                    <img src="img/video_bg.jpg" id="thumbnail">
+                    <div class="overlay"></div>
+                    <img src="img/play.png" class="play-btn" onclick="playVideo('img/car.mp4')">
+                    <video controls autoplay id="myvideo" style="display: none;">
+                        <source src="img/car.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+        </div>
+        <div class="row justify-content-center pt-5">
+            <div class="col-10 bg-black d-flex">
+                <div class="col-12 col-md-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="d-flex justify-content-center align-items-center position-relative service-img">
+                            <img class="img-fluid rounded-circle position-absolute top-50 start-50 translate-middle"
+                                loading="lazy" src="/img/service_icon1.png" alt="" style="width: 60px; z-index: 100;">
+                        </div>
+                        <div class="card-body p-4 p-xxl-5 text-center">
+                            <figure>
+                                <figcaption>
+                                    <div class="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0">
+                                    </div>
+                                    <h5 class="mb-2 text-light">Birthday Cakes</h5>
+                                    <p class="col-lg-12 text-secondary">Sed ut perspiciatis unde </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="d-flex justify-content-center align-items-center position-relative service-img">
+                            <img class="img-fluid rounded-circle position-absolute top-50 start-50 translate-middle"
+                                loading="lazy" src="/img/service_icon2.png" alt="" style="width: 60px; z-index: 100;">
+                        </div>
+                        <div class="card-body p-4 p-xxl-5 text-center">
+                            <figure>
+                                <figcaption>
+                                    <div class="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0">
+                                    </div>
+                                    <h5 class="mb-2 text-light">Fresh Foods</h5>
+                                    <p class="col-lg-12 text-secondary">Sed ut perspiciatis unde </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="d-flex justify-content-center align-items-center position-relative service-img">
+                            <img class="img-fluid rounded-circle position-absolute top-50 start-50 translate-middle"
+                                loading="lazy" src="/img/service_icon3.png" alt="" style="width: 60px; z-index: 100;">
+                        </div>
+                        <div class="card-body p-4 p-xxl-5 text-center">
+                            <figure>
+                                <figcaption>
+                                    <div class="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0">
+                                    </div>
+                                    <h5 class="mb-2 text-light">Skills Chefs</h5>
+                                    <p class="col-lg-12 text-secondary">Sed ut perspiciatis unde </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="d-flex justify-content-center align-items-center position-relative service-img">
+                            <img class="img-fluid rounded-circle position-absolute top-50 start-50 translate-middle"
+                                loading="lazy" src="/img/service_icon4.png" alt="" style="width: 50px; z-index: 100;">
+                        </div>
+                        <div class="card-body p-4 p-xxl-5 text-center">
+                            <figure>
+                                <figcaption>
+                                    <div class="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0">
+                                    </div>
+                                    <h5 class="mb-2 text-light">Organic Juice</h5>
+                                    <p class="col-lg-12 text-secondary">Sed ut perspiciatis unde </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end video -->
+
+
+    <!-- EXPERIENCE TEAM MEMBER Star  -->
+    <div class="bg-black  p-5">
+        <div class="container">
+            <div class="text-primary text-uppercase my-4 text-center pt-5">EXPERIENCE TEAM MEMBER</div>
+            <h3 class="font-family-'Oswald' my-4 text-white text-center" style="font-size: 42px;">Meet Our Professional
+                Chefs</h3>
+            <div class="row g-4 mx-5">
+                <div class="col-3 ">
+                    <div class="p-3 bg-dark" style="height: 60%;">
+                        <h6 class="font-family-'Oswald' my-2 text-white text-center" style="font-size: 18px;">Anthony
+                            J.Bowman</h6>
+                        <p class="text-primary text-center">Senior Chefs</p>
+                        <div class="card position-relative bg-team-item" style="height: 100%;">
+                            <div class="card-content-team">
+                                <img src="img/team1.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-overlay-team d-flex flex-column justify-content-between align-items-center text-white p-3">
+                                    <p class="mb-2">bowmankf@gmail.com<br>+012 (345) 678 99</p>
+                                    <div class="container">
+                                        <div class="row row-cols-4">
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-facebook"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-twitter"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-instagram"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-youtube"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="p-3 bg-dark" style="height: 60%;">
+                        <h6 class="font-family-'Oswald' my-2 text-white text-center" style="font-size: 18px;">Kenny V. Gonzalez</h6>
+                        <p class="text-primary text-center">Senior Chefs</p>
+                        <div class="card position-relative bg-team-item " style="height: 100%">
+                            <div class="card-content-team">
+                                <img src="img/team2.jpg" class="card-img-top img-fluid " alt="...">
+                                <div class="card-overlay-team d-flex flex-column justify-content-between align-items-center text-white p-3">
+                                    <p class="mb-2">bowmankf@gmail.com<br>+012 (345) 678 99</p>
+                                    <div class="container">
+                                        <div class="row row-cols-4">
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-facebook"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-twitter"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-instagram"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-youtube"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="p-3 bg-dark" style="height: 60%;">
+                        <h6 class="font-family-'Oswald' my-2 text-white text-center" style="font-size: 18px;">Joseph M. Lawrence</h6>
+                        <p class="text-primary text-center">Senior Chefs</p>
+                        <div class="card position-relative bg-team-item " style="height: 100%">
+                            <div class="card-content-team">
+                                <img src="img/team3.jpg" class="card-img-top img-fluid " alt="...">
+                                <div class="card-overlay-team d-flex flex-column justify-content-between align-items-center text-white p-3">
+                                    <p class="mb-2">bowmankf@gmail.com<br>+012 (345) 678 99</p>
+                                    <div class="container">
+                                        <div class="row row-cols-4">
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-facebook"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-twitter"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-instagram"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-youtube"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="p-3 bg-dark" style="height: 60%;">
+                        <h6 class="font-family-'Oswald' my-2 text-white text-center" style="font-size: 18px;">Charles K. Smith</h6>
+                        <p class="text-primary text-center">Senior Chefs</p>
+                        <div class="card position-relative bg-team-item " style="height: 100%">
+                            <div class="card-content-team">
+                                <img src="img/team4.jpg" class="card-img-top img-fluid " alt="...">
+                                <div class="card-overlay-team d-flex flex-column justify-content-between align-items-center text-white p-3">
+                                    <p class="mb-2">bowmankf@gmail.com<br>+012 (345) 678 99</p>
+                                    <div class="container">
+                                        <div class="row row-cols-4">
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-facebook"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-twitter"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-instagram"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col icon-team-item">
+                                                <span class="bg-light text-primary text-center p-1">
+                                                    <i class="bi bi-youtube"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- end -->
+    <div class="bg-dark p-5">
+        <div class="container p-5">
+            <div class="row row-cols-2 row-cols-lg-3">
+              <div class="col-3 col-lg-2 img-brand"><img src="img/brand1.png" alt=""></div>
+              <div class="col-3 col-lg-2 img-brand"><img src="img/brand2.png" alt=""></div>
+              <div class="col-3 col-lg-2 img-brand"><img src="img/brand3.png" alt=""></div>
+              <div class="col-3 col-lg-2 img-brand"><img src="img/brand4.png" alt=""></div>
+              <div class="col-3 col-lg-2 img-brand"><img src="img/brand5.png" alt=""></div>
+              <div class="col-3 col-lg-2 img-brand"><img src="img/brand6.png" alt=""></div>
+
+            </div>
+          </div>
+    </div>
+    <div class="container-fluid bg-black p-5">
+        <div class="container">
+            <div class="text-primary text-uppercase my-4 text-center pt-5">CUSTOMER FEEDBACK</div>
+            <h3 class="font-family-'Oswald' my-4 text-white text-center" style="font-size: 42px;">What Our Clients Say
+            </h3>
+            <!-- Testimonial 3 - Bootstrap Brain Component -->
+            <section class="bg-black py-5 py-xl-8">
+                <div class="container overflow-hidden">
+                    <div class="slick-slider row gy-4 gy-md-0 gx-xxl-5">
+                        <div class="col-12 col-md-3">
+                            <div class="card border-0 shadow-sm">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img class="img-fluid rounded rounded-circle " loading="lazy" src="/img/rev1.jpg"
+                                        alt="" style="width: 80px; margin-bottom: -30px; z-index: 100;">
+                                </div>
+                                <div class="card-body p-4 p-xxl-5 bg-dark text-center">
+                                    <figure>
+                                        <div class="text-center">
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                        </div>
+                                        <figcaption>
+                                            <div class="bsb-ratings text-warning mb-3" data-bsb-star="5"
+                                                data-bsb-star-off="0"></div>
+                                            <blockquote
+                                                class="bsb-blockquote-icon mb-4 text-secondary font-family-'Oswald'">Sed
+                                                ut perspiciatis unde omnis iste natus error voluptate accusantium
+                                                doloremque</blockquote>
+                                            <h5 class="mb-2 text-light">Frederick S.France</h5>
+                                            <h5 class="fs-6 mb-0 text-primary">Web Designer</h5>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="card border-0  shadow-sm">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img class="img-fluid rounded rounded-circle " loading="lazy" src="/img/rev2.jpg"
+                                        alt="" style="width: 80px; margin-bottom: -30px; z-index: 100;">
+                                </div>
+                                <div class="card-body p-4 p-xxl-5 bg-dark text-center">
+                                    <figure>
+                                        <div class="text-center">
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                        </div>
+                                        <figcaption>
+                                            <div class="bsb-ratings text-warning mb-3" data-bsb-star="5"
+                                                data-bsb-star-off="0"></div>
+                                            <blockquote
+                                                class="bsb-blockquote-icon mb-4 text-secondary font-family-'Oswald'">Sed
+                                                ut perspiciatis unde omnis iste natus error voluptate accusantium
+                                                doloremque</blockquote>
+                                            <h5 class="mb-2 text-light">James M.London</h5>
+                                            <h5 class="fs-6 mb-0 text-primary">Lawyer</h5>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="card border-0 shadow-sm">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img class="img-fluid rounded rounded-circle " loading="lazy" src="/img/rev3.jpg"
+                                        alt="" style="width: 80px; margin-bottom: -30px; z-index: 100;">
+                                </div>
+                                <div class="card-body p-4 p-xxl-5 bg-dark text-center">
+                                    <figure>
+                                        <div class="text-center">
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                        </div>
+                                        <figcaption>
+                                            <div class="bsb-ratings text-warning mb-3" data-bsb-star="5"
+                                                data-bsb-star-off="0"></div>
+                                            <blockquote
+                                                class="bsb-blockquote-icon mb-4 text-secondary font-family-'Oswald'">Sed
+                                                ut perspiciatis unde omnis iste natus error voluptate accusantium
+                                                doloremque</blockquote>
+                                            <h5 class="mb-2 text-light">Olivia D.New York</h5>
+                                            <h5 class="fs-6 mb-0 text-primary">Dentist</h5>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="card border-0 shadow-sm">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img class="img-fluid rounded rounded-circle " loading="lazy" src="/img/rev1.jpg"
+                                        alt="" style="width: 80px; margin-bottom: -30px; z-index: 100;">
+                                </div>
+                                <div class="card-body p-4 p-xxl-5 bg-dark text-center">
+                                    <figure>
+                                        <div class="text-center">
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                        </div>
+                                        <figcaption>
+                                            <div class="bsb-ratings text-warning mb-3" data-bsb-star="5"
+                                                data-bsb-star-off="0"></div>
+                                            <blockquote
+                                                class="bsb-blockquote-icon mb-4 text-secondary font-family-'Oswald'">Sed
+                                                ut perspiciatis unde omnis iste natus error voluptate accusantium
+                                                doloremque</blockquote>
+                                            <h5 class="mb-2 text-light">Frederick S.France</h5>
+                                            <h5 class="fs-6 mb-0 text-primary">Web Designer</h5>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="card border-0 shadow-sm">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img class="img-fluid rounded rounded-circle " loading="lazy" src="/img/rev2.jpg"
+                                        alt="" style="width: 80px; margin-bottom: -30px; z-index: 100;">
+                                </div>
+                                <div class="card-body p-4 p-xxl-5 bg-dark text-center">
+                                    <figure>
+                                        <div class="text-center">
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                        </div>
+                                        <figcaption>
+                                            <div class="bsb-ratings text-warning mb-3" data-bsb-star="5"
+                                                data-bsb-star-off="0"></div>
+                                            <blockquote
+                                                class="bsb-blockquote-icon mb-4 text-secondary font-family-'Oswald'">Sed
+                                                ut perspiciatis unde omnis iste natus error voluptate accusantium
+                                                doloremque</blockquote>
+                                            <h5 class="mb-2 text-light">James M.London</h5>
+                                            <h5 class="fs-6 mb-0 text-primary">Lawyer</h5>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="card border-0 shadow-sm">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img class="img-fluid rounded rounded-circle " loading="lazy" src="/img/rev3.jpg"
+                                        alt="" style="width: 80px; margin-bottom: -30px; z-index: 100;">
+                                </div>
+                                <div class="card-body p-4 p-xxl-5 bg-dark text-center">
+                                    <figure>
+                                        <div class="text-center">
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                            <i class="bi bi-star-fill star-gold"></i>
+                                        </div>
+                                        <figcaption>
+                                            <div class="bsb-ratings text-warning mb-3" data-bsb-star="5"
+                                                data-bsb-star-off="0"></div>
+                                            <blockquote
+                                                class="bsb-blockquote-icon mb-4 text-secondary font-family-'Oswald'">Sed
+                                                ut perspiciatis unde omnis iste natus error voluptate accusantium
+                                                doloremque</blockquote>
+                                            <h5 class="mb-2 text-light">Olivia D.New York</h5>
+                                            <h5 class="fs-6 mb-0 text-primary">Dentist</h5>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- book take star -->
+    <div class="container-fluid bg-black p-5 cta-bg">
+        <div class="container">
+            <div class="col-12 titel-item-cta d-flex">
+                <div class="col-md-10">
+                    <div class="text-primary text-uppercase my-4">NEED A TABLE ON COFFEE HOUSE</div>
+                    <h3 class="font-family-'Oswald' my-4 text-white" style="font-size: 42px;">Booking Table For Your &
+                        Family Members</h3>
+                </div>
+                <div class="col-2">
+                    <button class="btn bg-primary text-light mt-5">BOOKING TABLE<i
+                            class="bi bi-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- footer -->
+    <div class="bg-black pt-5">
+        <div class="container">
+            <footer class="text-center text-lg-start text-white">
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <img src="img/logo.png" alt="" width="40%">
+
+
+                            </div>
+
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold">Working Hours</h6>
+                                <ul>
+                                    <li class="mb-2">Sunday - Thursday <br>
+                                        <span class="text-primary">08:00 am - 09:00pm</span>
+                                    </li>
+                                    <li class="mb-2">Only Friday <br>
+                                        <span class="text-primary">08:00 am - 09:00pm</span>
+                                    </li>
+                                    <p style="color: #ff8a00; font-family: Merienda; font-size: 22px;">Saturday Close
+                                    </p>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-2 col-lg-4 col-xl-3 mx-auto ">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold">Working Hours</h6>
+                                <ul>
+                                    <div class="row ">
+                                        <div class="col-12 col-lg-2">
+                                            <i class="bi bi-geo-alt text-primary" style="font-size: 30px;"></i>
+                                        </div>
+                                        <div class="col-12 col-lg-10 text-secondary ">
+                                            <h6 class="font-family-'Oswald' text-primary">Location :</h6>
+                                            <p class="text-light">55 Main Street, New York</p>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-12 col-lg-2">
+                                            <i class="bi bi-envelope-paper text-primary" style="font-size: 30px;"></i>
+                                        </div>
+                                        <div class="col-12 col-lg-10 text-secondary ">
+                                            <h6 class="font-family-'Oswald' text-primary">Email Address :</h6>
+                                            <p class="text-light">kaffendev@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-12 col-lg-2">
+                                            <i class="bi bi-telephone text-primary" style="font-size: 30px;"></i>
+                                        </div>
+                                        <div class="col-12 col-lg-10 text-secondary ">
+                                            <h6 class="font-family-'Oswald' text-primary">Phone Number :
+                                            </h6>
+                                            <p class="text-light">+012 (345) 678 99</p>
+                                        </div>
+                                    </div>
+
+                                </ul>
+
+                            </div>
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <h6 class="text-uppercase fw-bold">Gallery</h6>
+                                <div class="container mt-3">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="img/grid_gal1.jpg" class="img-gird_gal" alt="Image 1">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="img/img4.jpg" class="img-gird_gal" alt="Image 2">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="img/img5.jpg" class="img-gird_gal" alt="Image 3">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-4">
+                                            <img src="img/img6.jpg" class="img-gird_gal" alt="Image 4">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="img/img7.jpg" class="img-gird_gal" alt="Image 5">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="img/img8.jpg" class="img-gird_gal" alt="Image 6">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                    © 2024 Copyright:
+                    <a class="text-white" href="https://mdbootstrap.com/">Nhuy tran@</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- end footer -->
+
+    <script src="SCSS/bootstrap-5.3.3/dist/js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script>
+        function playVideo(file) {
+            var thumbnail = document.getElementById("thumbnail");
+            var playButton = document.querySelector(".play-btn");
+            var myvideo = document.getElementById("myvideo");
+            thumbnail.style.display = "none";
+            playButton.style.display = "none";
+            myvideo.src = file;
+            myvideo.style.display = "block";
+            myvideo.play();
+        }
+        $(document).ready(function () {
+            $('.slick-slider').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 2,
+                arrows: false,
+                dots: false,
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+</body>
+
+</html>
